@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume</title>
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #eee;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        section h2 {
+            font-size: 1.8rem;
+            border-bottom: 2px solid #333;
+            margin-bottom: 15px;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .content > div {
+            flex: 1;
+            min-width: 250px;
+        }
+        ul {
+            list-style: none;
+        }
+        ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .skills li, .experience li, .education li {
+            display: flex;
+            justify-content: space-between;
+        }
+        .contact-info {
+            text-align: center;
+        }
+        .contact-info p {
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            .content {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>John Doe</h1>
+        <p>Full Stack Developer | Web Enthusiast</p>
+    </header>
+
+    <section>
+        <h2>Profile</h2>
+        <p>
+            I am a passionate Full Stack Developer with 5+ years of experience in building dynamic and responsive websites and web applications. I am proficient in both front-end and back-end technologies, with a focus on creating efficient, scalable, and user-friendly solutions.
+        </p>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <ul class="experience">
+            <li>
+                <div>
+                    <strong>Senior Developer</strong> - ABC Corp.
+                    <span>2020 - Present</span>
+                </div>
+                <p>Developing full-stack web applications, optimizing performance, and leading a team of 5 developers.</p>
+            </li>
+            <li>
+                <div>
+                    <strong>Junior Developer</strong> - XYZ Inc.
+                    <span>2017 - 2020</span>
+                </div>
+                <p>Worked on multiple front-end and back-end features, primarily using JavaScript, Node.js, and React.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <ul class="education">
+            <li>
+                <div>
+                    <strong>BS in Computer Science</strong> - ABC University
+                    <span>2013 - 2017</span>
+                </div>
+                <p>Graduated with honors, specialized in software development and web technologies.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul class="skills">
+            <li>HTML/CSS <span>⭐⭐⭐⭐⭐</span></li>
+            <li>JavaScript <span>⭐⭐⭐⭐⭐</span></li>
+            <li>React.js <span>⭐⭐⭐⭐</span></li>
+            <li>Node.js <span>⭐⭐⭐⭐</span></li>
+            <li>SQL/NoSQL Databases <span>⭐⭐⭐⭐</span></li>
+        </ul>
+    </section>
+
+    <section class="contact-info">
+        <h2>Contact</h2>
+        <p>Email: john.doe@example.com</p>
+        <p>Phone: +1234567890</p>
+        <p>Website: www.johndoe.com</p>
+    </section>
+</div>
+
+<footer>
+    &copy; 2024 John Doe | All Rights Reserved
+</footer>
+
+<script>
+    // JavaScript for interactive elements (if needed)
+    document.addEventListener("DOMContentLoaded", function() {
+        // Add any interactive JS code here
+    });
+</script>
+
+</body>
+</html>
